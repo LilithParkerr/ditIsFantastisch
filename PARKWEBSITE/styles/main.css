@@ -192,13 +192,37 @@ footer {
   display: block;
 }
 
+.logo {
+  margin: 0 auto;
+  width: 256px;
+}
+
+.row article {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  .side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -206,19 +230,11 @@ footer {
 */
 
 @media (max-width: 1024px) {
-  .logo {
-    margin: 0 auto;
-    width: 256px;
-  }
-
-  .row article {
+  .side-by-side {
     display: flex;
     flex-direction: row;
-  }
-
-  .sidy-by-side {
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
