@@ -9,7 +9,8 @@
     * Secundaire kleur: #2F80ED
 */
 
-body, html{
+body,
+html {
   margin: 0;
   padding: 0;
 
@@ -17,31 +18,31 @@ body, html{
   background: #FCFCFC;
 }
 
-.wrapper{
+.wrapper {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
 
-header{
+header {
   background: url('../images/park01.jpg');
   background-size: cover;
   background-position: center;
   background-color: #CCCCCC;
 }
 
-.header-content{
+.header-content {
   padding: 1em;
 
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
 
   /* Deze animatie wordt onder aan dit bestand gedefinieerd/aangemaakt */
-  -webkit-animation: fadein 4s; 
+  -webkit-animation: fadein 4s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; 
+  -moz-animation: fadein 4s;
   /* Firefox < 16 */
-  -ms-animation: fadein 4s; 
+  -ms-animation: fadein 4s;
   /* Internet Explorer */
   -o-animation: fadein 4s;
   /* Opera < 12.1 */
@@ -288,4 +289,20 @@ footer {
   to {
     opacity: 1;
   }
+}
+
+.rides {
+  text-shadow: 0 0 0 #FCFCFC,
+    -1px -1px 0 #FCFCFC,
+    1px -1px 0 #FCFCFC,
+    -1px 1px 0 #FCFCFC,
+    1px 1px 0 #FCFCFC;
+}
+
+.open-forever {
+  text-shadow: 0 0 0 #FCFCFC,
+    -1px -1px 0 #FCFCFC,
+    1px -1px 0 #FCFCFC,
+    -1px 1px 0 #FCFCFC,
+    1px 1px 0 #FCFCFC;
 }
