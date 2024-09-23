@@ -309,3 +309,42 @@ button:hover {
   cursor: pointer;
   flex-direction: row;
 }
+
+
+
+
+/* --------------------------------moblile accessibility------------------------------ */
+
+@media only screen and (max-width: 600px) {
+  body {
+    article {
+      border-left: 5px solid #2766ae;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row2 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fun-for-family,
+    .accessibility,
+    .rides,
+    .open-forever {
+      text-shadow: 2px 3px #2766ae;
+    }
+    
+    button{
+      background-color: #2766ae;
+    }
+
+    a{
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+  }
