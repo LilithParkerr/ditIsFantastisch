@@ -297,3 +297,15 @@ footer {
     opacity: 1;
   }
 }
+
+.fun-for-family,
+.accessibility,
+.rides,
+.open-forever {
+  text-shadow: 2px 3px #27AE60;
+}
+
+button:hover {
+  cursor: pointer;
+  flex-direction: row;
+}
