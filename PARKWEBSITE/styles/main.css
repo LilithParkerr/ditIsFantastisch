@@ -9,7 +9,8 @@
     * Secundaire kleur: #2F80ED
 */
 
-body, html{
+body,
+html {
   margin: 0;
   padding: 0;
 
@@ -17,31 +18,31 @@ body, html{
   background: #FCFCFC;
 }
 
-.wrapper{
+.wrapper {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
 
-header{
+header {
   background: url('../images/park01.jpg');
   background-size: cover;
   background-position: center;
   background-color: #CCCCCC;
 }
 
-.header-content{
+.header-content {
   padding: 1em;
 
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
 
   /* Deze animatie wordt onder aan dit bestand gedefinieerd/aangemaakt */
-  -webkit-animation: fadein 4s; 
+  -webkit-animation: fadein 4s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; 
+  -moz-animation: fadein 4s;
   /* Firefox < 16 */
-  -ms-animation: fadein 4s; 
+  -ms-animation: fadein 4s;
   /* Internet Explorer */
   -o-animation: fadein 4s;
   /* Opera < 12.1 */
@@ -167,7 +168,12 @@ button {
   height: 64px;
 }
 
-.sidy-by-side {}
+
+.sidy-by-side {
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .description {
   flex: 1;
@@ -190,16 +196,18 @@ footer {
 .hidden-on-sm {
   display: block;
 }
-.row{
-  display: flex;
-  flex-direction: row;
-}
-.row2{
+
+.row {
   display: flex;
   flex-direction: row;
 }
 
-a{
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -315,7 +323,17 @@ button:hover {
   flex-direction: row;
 }
 
+.ham {
+  width: 45px;
+}
 
+.burger {
+  width: 90px;
+}
+
+.imgpro {
+  width: 15em
+}
 
 
 /* --------------------------------moblile accessibility------------------------------ */
@@ -342,12 +360,12 @@ button:hover {
     .open-forever {
       text-shadow: 2px 3px #2766ae;
     }
-    
-    button{
+
+    button {
       background-color: #2766ae;
     }
 
-    a{
+    a {
       color: #ffffff;
       text-decoration: none;
     }
