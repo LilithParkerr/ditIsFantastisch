@@ -199,6 +199,11 @@ footer {
   flex-direction: row;
 }
 
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
